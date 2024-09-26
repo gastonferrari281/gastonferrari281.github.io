@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo sin CSS</title>
+    <title>Instrucciones para Instalar XAMPP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ol {
+            margin: 20px auto;
+            padding: 0;
+            max-width: 600px;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1><font size="6" face="Arial" color="blue">Este es un título</font></h1>
-    <p><font size="4" face="Verdana" color="green">Este es un párrafo con tamaño de fuente 4, usando Verdana y color verde.</font></p>
-    <ul>
-        <li><font size="3" face="Courier" color="red">Ítem 1 con tamaño de fuente 3, usando Courier y color rojo</font></li>
-        <li><font size="3" face="Courier" color="red">Ítem 2 con tamaño de fuente 3, usando Courier y color rojo</font></li>
-        <li><font size="3" face="Courier" color="red">Ítem 3 con tamaño de fuente 3, usando Courier y color rojo</font></li>
-    </ul>
+
+    <h1>Instrucciones para Instalar XAMPP</h1>
+    <ol>
+        <li>
+            <strong>Paso 1: Instala XAMPP</strong><br>
+            Descarga XAMPP desde el sitio oficial: <a href="https://www.apachefriends.org/index.html" target="_blank">https://www.apachefriends.org/index.html</a>.<br>
+            Instala XAMPP siguiendo las instrucciones del instalador. Elige la instalación completa con Apache, PHP y MySQL (u otros componentes si los necesitas).
+        </li>
+        <li>
+            <strong>Paso 2: Inicia el servidor Apache en XAMPP</strong><br>
+            Abre el Panel de Control de XAMPP.<br>
+            En el panel de control, localiza Apache y haz clic en el botón <strong>Start</strong>. Esto iniciará el servidor web que procesará los archivos PHP.<br>
+            Si Apache está en funcionamiento, verás un indicador verde y podrás acceder al servidor localmente a través de <a href="http://localhost" target="_blank">http://localhost</a>.
+        </li>
+        <li>
+            <strong>Paso 3: Crea un archivo PHP</strong><br>
+            Ve a la carpeta donde XAMPP guarda los archivos para el servidor web. En la mayoría de las instalaciones, esta carpeta se llama <strong>htdocs</strong> y se encuentra en:<br>
+            Windows: <code>C:\xampp\htdocs</code><br>
+            Crea una nueva carpeta dentro de htdocs para organizar tus archivos. Llamarla <strong>ejephp</strong>.<br>
+            Dentro de la carpeta <strong>ejephp</strong>, crea un archivo llamado <strong>index.php</strong>.
+        </li>
+    </ol>
+
 </body>
 </html>
