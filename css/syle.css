@@ -1,12 +1,12 @@
 body {
     font-family: Verdana, sans-serif; 
-    font-size: 12px; 
+    font-size: 20px; 
     line-height: 1.6;
     margin: 20px;
 }
 h1 {
     text-align: center;
-    color: #f5dc00;
+    color: #0400ff;
 }
 ol {
     margin: 20px auto;
