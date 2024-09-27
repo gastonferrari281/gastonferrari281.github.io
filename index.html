@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instrucciones para Instalar XAMPP</title>
     <link href="css/syle.css" rel="stylesheet"> 
-
 </head>
 <body>
 
@@ -36,23 +35,25 @@
         <li>
             <strong>Paso 5: Escribir en el HTML</strong><br>
             Copia y pega el siguiente código en <strong>index.php</strong>:
-            <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="es"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Ejemplo PHP con Bucle&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;Números del 1 al 5&lt;/h1&gt;
+            <pre><code>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página PHP</title>
+</head>
+<body>
+    <h1>¡Hola, mundo!</h1>
 
-    &lt;?php
-        for ($i = 1; $i &lt;= 5; $i++) {
-            echo "&lt;p&gt;Número: $i&lt;/p&gt;";
-        }
-    ?&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+    <?php
+        echo "<p>Este es un párrafo generado con PHP.</p>";
+        $nombre = "Gaston";
+        echo "<p>Mi nombre es $nombre.</p>";
+    ?>
+</body>
+</html>
+            </code></pre>
         </li>
         <li>
             <strong>Paso 6: Accede al archivo en el navegador</strong><br>
